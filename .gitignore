@@ -1,0 +1,34 @@
+# Node.js dependencies (both backend & frontend)
+node_modules/
+**/node_modules/
+
+# Environment files
+.env
+client/.env
+server/.env
+
+# Build outputs
+server/dist/
+client/dist/
+client/build/
+**/dist/
+**/build/
+
+# Vite cache & logs
+node_modules/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor folders
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
