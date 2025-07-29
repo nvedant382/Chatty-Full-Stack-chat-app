@@ -24,7 +24,7 @@ const CLIENT_URL = process.env.NODE_ENV === "production"
 
 if (process.env.NODE_ENV === "development") {
     app.use(cors({
-        origin: CLIENT_URL,
+        origin: [CLIENT_URL, , "https://your-frontend.onrender.com"],
         credentials: true,
     }))
 }
