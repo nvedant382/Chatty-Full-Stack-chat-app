@@ -7,6 +7,9 @@
     "build": "npm install --prefix server && npm install --prefix client && npm run build --prefix client",
     "start": "npm run start --prefix server"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC"
